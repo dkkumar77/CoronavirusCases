@@ -10,10 +10,19 @@ worldPage = requests.get("https://www.worldometers.info/coronavirus/?utm_campaig
 tree1 = html.fromstring(worldPage.content)
 
 currentWorldStats = tree1.xpath('//*[@id="maincounter-wrap"]/div/span/text()')
+print("US CASES")
+desc = ["Cases", "Deaths", "Recoveries"]
 
-print('United States - Cases, Deaths, Recoveries in Current Time', currentStats)
+i = 0
+while i<3:
+    print(desc[i], currentStats[i])
+    i+=1
 
-print('Globally - Cases, Deaths, Recoveries in Current Time', currentWorldStats)
 
+print("\nGLOBAL CASES")
+i = 0
+while i<3:
+    print(desc[i], currentWorldStats[i])
+    i+=1
 
 
