@@ -8,8 +8,9 @@ Data comes straight from worldometers.info/coronavirus/
 
 
 
-<u>Required Installations</u>
-  pip3 install lxml
-  pip3 install requests
+Required Installations
+
+pip3 install lxml
+pip3 install requests
   
   
