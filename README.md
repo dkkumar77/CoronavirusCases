@@ -11,6 +11,7 @@ Data comes straight from worldometers.info/coronavirus/
 Required Installations
 
 pip3 install lxml
+
 pip3 install requests
   
   
