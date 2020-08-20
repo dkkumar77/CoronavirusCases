@@ -4,9 +4,7 @@ Fun Scrape that displays current Coronavirus Cases in the United States along wi
 
 Data comes straight from worldometers.info/coronavirus/
 
-
-
-
+![image](CoronavirusCases/running on terminal.png)
 
 Required Installations
 
