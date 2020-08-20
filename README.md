@@ -8,10 +8,10 @@ Data comes straight from worldometers.info/coronavirus/
 <br>
 <img src="./running on terminal.png">
 
-<h4>Required Installations</h4>
+<i><h4>Required Installations</h4></i>
 
-<b>pip3 install lxml</b>
+<font size="-2">pip3 install lxml
 
-<b>pip3 install requests</b>
+pip3 install requests</font>
   
   
